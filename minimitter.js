@@ -17,6 +17,10 @@ Minimitter.prototype.off = function(name, callback) {
 
 Minimitter.prototype.emit = function(name, data) {
   this.listeners[name].forEach(function(callback) {
-    callback(data);
+    try {
+      callback(data);
+    } catch {
+      console.error('A callback has failed.');
+    }
   });
 };
