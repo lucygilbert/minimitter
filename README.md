@@ -9,3 +9,7 @@ For the moment, this is not on NPM, so simply put `minimitter.js` into your code
 ## Usage
 
 `var emitter = new Minimitter()`
+
+## Development and testing
+
+Run `npm install` to get the dependencies. Run `jasmine` to run the Jasmine tests.
