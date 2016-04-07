@@ -1,0 +1,17 @@
+{
+  "name": "minimitter",
+  "version": "1.0.0",
+  "description": "A mini event emitter.",
+  "main": "minimitter.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "events",
+    "eventemitter",
+    "event-emitter",
+    "emitter"
+  ],
+  "author": "Lucy Gilbert",
+  "license": "MIT"
+}
