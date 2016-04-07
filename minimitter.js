@@ -1,5 +1,5 @@
-var Minimitter = function Minimitter() {
-  listeners = {};
+Minimitter = function Minimitter() {
+  this.listeners = {};
 };
 
 Minimitter.prototype.on = function(name, callback) {
@@ -19,7 +19,7 @@ Minimitter.prototype.emit = function(name, data) {
   this.listeners[name].forEach(function(callback) {
     try {
       callback(data);
-    } catch {
+    } catch(err) {
       console.error('A callback has failed.');
     }
   });
