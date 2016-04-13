@@ -24,3 +24,5 @@ Minimitter.prototype.emit = function(name, data) {
     }
   });
 };
+
+module.exports = Minimitter;

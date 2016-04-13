@@ -8,7 +8,10 @@ A mini event emitter.
 
 ## Usage
 
-`var emitter = new Minimitter()`
+```
+var Minimitter = require('minimitter');
+var emitter = new Minimitter()
+```
 
 ## Development and testing
 
